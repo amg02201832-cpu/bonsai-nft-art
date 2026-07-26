@@ -289,31 +289,13 @@ body.lang-en .hero-title-jp {
   justify-content: center;
 }
 
-.emblem-svg { width: 100%; max-width: 280px; }
-
-.emblem-ring {
-  fill: none;
-  stroke: var(--line);
-  stroke-width: 1;
-}
-
-.emblem-trunk {
-  fill: none;
-  stroke: var(--moss-deep);
-  stroke-width: 3;
-  stroke-linecap: round;
-}
-
-.emblem-branch {
-  fill: none;
-  stroke: var(--moss-deep);
-  stroke-width: 2;
-  stroke-linecap: round;
-}
-
-.emblem-leaf {
-  fill: var(--moss);
-  opacity: 0.85;
+.emblem-photo {
+  width: 100%;
+  max-width: 280px;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 1px solid var(--line);
 }
 
 /* ---------- About ---------- */
