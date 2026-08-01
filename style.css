@@ -450,6 +450,243 @@ body.lang-en .hero-title-jp {
   color: var(--moss-deep);
 }
 
+/* ---------- Collection modal ---------- */
+.card { cursor: pointer; }
+
+/* Rendered into every card by script.js, so it never appears without JS. */
+.card-detail {
+  appearance: none;
+  font-family: var(--font-sans);
+  text-align: left;
+  background: transparent;
+  border: none;
+  border-top: 1px solid var(--line);
+  margin: 8px 24px 0;
+  padding: 14px 0 0;
+  font-size: 13px;
+  letter-spacing: 0.03em;
+  color: var(--ink-soft);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  transition: gap 0.2s, color 0.2s;
+}
+.card-detail:hover { gap: 10px; color: var(--clay); }
+.card-detail + .card-link { border-top: none; margin-top: 0; padding-top: 8px; }
+
+/* The trigger is the keyboard entry point into the modal, so keep the ring
+   explicit — a transparent borderless button hides the UA default. */
+.card-detail:focus-visible,
+.modal-close:focus-visible {
+  outline: 2px solid var(--clay);
+  outline-offset: 3px;
+}
+.modal-close:focus-visible { outline-color: var(--gold); }
+
+.modal {
+  display: none;
+  position: fixed;
+  inset: 0;
+  z-index: 100;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  padding: 5vh 20px;
+  -webkit-overflow-scrolling: touch;
+}
+.modal.is-open { display: flex; }
+
+body.modal-open { overflow: hidden; }
+
+.modal-backdrop {
+  position: fixed;
+  inset: 0;
+  background: rgba(18, 17, 15, 0.86);
+  backdrop-filter: blur(5px);
+  animation: modal-fade 0.25s ease;
+}
+
+.modal-dialog {
+  position: relative;
+  /* margin:auto centres a short dialog but still lets a tall one scroll from
+     the top, which align-items:center would clip. */
+  margin: auto;
+  width: 100%;
+  max-width: 880px;
+  background: var(--ink);
+  color: var(--washi);
+  border: 1px solid #4a453e;
+  border-radius: 2px;
+  padding: 44px 44px 36px;
+  animation: modal-rise 0.3s ease;
+}
+
+@keyframes modal-fade { from { opacity: 0; } to { opacity: 1; } }
+@keyframes modal-rise {
+  from { opacity: 0; transform: translateY(14px); }
+  to   { opacity: 1; transform: none; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .modal-backdrop, .modal-dialog { animation: none; }
+}
+
+.modal-close {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  width: 38px;
+  height: 38px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: transparent;
+  color: var(--washi);
+  border: 1px solid #4a453e;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: color 0.2s, border-color 0.2s;
+}
+.modal-close:hover { color: var(--gold); border-color: var(--gold); }
+
+.modal-eyebrow {
+  font-size: 12px;
+  letter-spacing: 0.22em;
+  color: var(--gold);
+  margin: 0 0 10px;
+  font-weight: 600;
+}
+
+.modal-title {
+  font-size: clamp(24px, 3.4vw, 32px);
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  padding-bottom: 16px;
+  position: relative;
+}
+.modal-title::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 46px;
+  height: 2px;
+  background: var(--gold);
+}
+
+.modal-tagline {
+  font-size: 15px;
+  color: #cfc9bd;
+  margin: 18px 0 0;
+  max-width: 60ch;
+}
+
+.modal-meta {
+  font-size: 12px;
+  letter-spacing: 0.08em;
+  color: #b3ab9c;
+  margin: 10px 0 0;
+}
+.modal-meta:empty { display: none; }
+
+.modal-body { margin: 36px 0 8px; }
+
+.modal-work {
+  display: grid;
+  grid-template-columns: 220px 1fr;
+  gap: 28px;
+  padding: 28px 0;
+  border-top: 1px solid #3a3630;
+}
+.modal-work:first-child { border-top: none; padding-top: 0; }
+
+.modal-work-thumb {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  overflow: hidden;
+  background: #2c2925;
+  border: 1px solid #3a3630;
+}
+.modal-work-thumb img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.modal-work-num {
+  font-family: var(--font-serif);
+  font-size: 12px;
+  letter-spacing: 0.1em;
+  color: var(--gold);
+  margin: 0 0 8px;
+}
+
+.modal-work-title {
+  font-family: var(--font-serif);
+  font-size: 19px;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+  margin: 0;
+}
+
+.modal-work-subtitle {
+  font-size: 12.5px;
+  letter-spacing: 0.05em;
+  color: #b3ab9c;
+  margin: 6px 0 0;
+}
+
+.modal-work-desc {
+  font-size: 14px;
+  color: #cfc9bd;
+  margin: 14px 0 0;
+  max-width: 52ch;
+}
+
+.modal-empty {
+  text-align: center;
+  padding: 44px 0;
+  color: #b3ab9c;
+}
+.modal-empty-mark {
+  font-family: var(--font-serif);
+  font-size: 34px;
+  color: var(--gold);
+  display: block;
+  margin-bottom: 14px;
+}
+.modal-empty-text { font-size: 14.5px; margin: 0; }
+
+.modal-footer {
+  border-top: 1px solid #3a3630;
+  padding-top: 28px;
+  display: flex;
+  justify-content: flex-start;
+}
+.modal-footer .btn-primary {
+  background: var(--gold);
+  border-color: var(--gold);
+  color: var(--ink);
+}
+.modal-footer .btn-primary:hover { background: var(--washi); border-color: var(--washi); }
+
+@media (max-width: 720px) {
+  .modal { padding: 0; }
+  .modal-dialog {
+    padding: 40px 20px 28px;
+    max-width: none;
+    border: none;
+    min-height: 100%;
+  }
+  .modal-work {
+    grid-template-columns: 1fr;
+    gap: 18px;
+  }
+  .modal-work-thumb { max-width: 320px; }
+  .modal-footer { justify-content: stretch; }
+  .modal-footer .btn { width: 100%; }
+}
+
 /* ---------- Contact ---------- */
 .contact {
   background: var(--ink);
