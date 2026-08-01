@@ -366,7 +366,10 @@ body.lang-en .hero-title-jp {
 .collection-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
-  align-items: start;
+  /* stretch, so cards sharing a row share its height regardless of how many
+     lines their description runs to. .card-desc then absorbs the slack and
+     keeps the trigger and OpenSea link on a common baseline. */
+  align-items: stretch;
   gap: 24px;
   margin-top: 44px;
 }
