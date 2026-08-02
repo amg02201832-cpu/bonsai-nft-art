@@ -116,6 +116,39 @@
           descEn: 'Under a pale sky where even the stars have gone, only a trunk of bleached deadwood remains on the rock. What outlasts time is the grain of the wood itself.'
         }
       ]
+    },
+    abyss: {
+      meta: { ja: '全4作品 · 各 0.05 WETH', en: '4 works · 0.05 WETH each' },
+      works: [
+        {
+          base: 'images/BONSAI ABYSS/胎動',
+          titleJa: '起・胎動「兆す」',
+          titleEn: 'Ki – Stirring',
+          descJa: '星雲の奔流が岩を洗う。幹の内側には青い光が走り、根はまだ届かぬ何かを探している。深淵は闇ではなく、始まりの場所だ。',
+          descEn: 'A torrent of nebula washes over the rock. Blue light runs inside the trunk, and the roots reach for something not yet found. The abyss is not darkness — it is where things begin.'
+        },
+        {
+          base: 'images/BONSAI ABYSS/孤島',
+          titleJa: '承・孤島「独り」',
+          titleEn: 'Sho – The Lone Island',
+          descJa: '支えるものは何もなく、島は虚空に浮かぶ。遠い星ひとつを頼りに、樹はそこに在り続ける。孤独とは、絶たれることではない。',
+          descEn: 'Nothing holds it up; the island floats in the void. By the light of one distant star, the tree simply continues. Solitude is not the same as being cut off.'
+        },
+        {
+          base: 'images/BONSAI ABYSS/沈潜',
+          titleJa: '転・沈潜「藍へ」',
+          titleEn: 'Ten – Into the Blue',
+          descJa: '樹も岩も、同じ藍のなかに沈んでいく。輪郭が溶け、どこまでが樹でどこからが宇宙なのか分からなくなる。境界を失うことが、ここでは深まることだ。',
+          descEn: 'Tree and rock sink into a single blue. Outlines dissolve until it is no longer clear where the tree ends and space begins. Here, losing the boundary is how one goes deeper.'
+        },
+        {
+          base: 'images/BONSAI ABYSS/鏡面',
+          titleJa: '結・鏡面「還る」',
+          titleEn: 'Ketsu – The Mirror',
+          descJa: '水面が空を映し、上と下の区別が消える。深淵をどこまでも降りていった先で出会うのは、はじめに見上げた星空そのものだった。',
+          descEn: 'The water takes in the sky, and up and down cease to differ. At the far end of the descent lies the very starfield first seen overhead.'
+        }
+      ]
     }
   };
 
