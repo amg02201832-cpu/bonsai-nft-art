@@ -50,6 +50,39 @@
           descEn: 'Through omen, resilience, and unexpected fortune, the story arrives here — in the pine that never loses its green. Fortune settles into quiet weight.'
         }
       ]
+    },
+    seasons: {
+      meta: { ja: '全4作品 · 各 0.05 WETH', en: '4 works · 0.05 WETH each' },
+      works: [
+        {
+          base: 'images/BONSAI SEASONS/春',
+          titleJa: '起・春「息吹」',
+          titleEn: 'Ki – Spring: "First Breath"',
+          descJa: '黒松。夜明けの霧を透かして、光が斜めに差し込む。まだ何も始まっていないように見えて、枝先のひとつひとつはすでに光を蓄えている。',
+          descEn: 'A black pine at daybreak, mist parting before the light. Nothing has begun yet — and still, every branch tip already holds the sun.'
+        },
+        {
+          base: 'images/BONSAI SEASONS/夏',
+          titleJa: '承・夏「緑陰」',
+          titleEn: 'Sho – Summer: "Green Shade"',
+          descJa: '障子越しのやわらかな光が、壁いっぱいに葉影を落とす。夏を語るのは樹そのものではなく、樹が生んだ影と、そのまわりの静かな余白のほうだ。',
+          descEn: 'Soft light through shoji scatters leaf-shadows across the wall. What speaks of summer is not the tree itself, but the shade it casts — and the quiet emptiness around it.'
+        },
+        {
+          base: 'images/BONSAI SEASONS/秋',
+          titleJa: '転・秋「燃ゆ」',
+          titleEn: 'Ten – Autumn: "Ablaze"',
+          descJa: '山紅葉。緑だった葉がことごとく色を変え、床にはすでに数枚が落ちている。極まった美しさは、失われはじめる合図でもある。',
+          descEn: 'The mountain maple turns. Every leaf that was green has changed, and a few already rest on the floor — beauty at its height is also the signal of its loss.'
+        },
+        {
+          base: 'images/BONSAI SEASONS/冬',
+          titleJa: '結・冬「静寂」',
+          titleEn: 'Ketsu – Winter: "Stillness"',
+          descJa: '五葉松。雪をまとい、色の失せた庭を背に、樹は動かない。四季をひと巡りして最後に残るのは、色ではなく幹と枝の骨格そのものだ。',
+          descEn: 'A white pine under snow, motionless against a garden drained of color. After a full turn of the seasons, what remains is not color but the bare architecture of trunk and branch.'
+        }
+      ]
     }
   };
 
