@@ -149,6 +149,39 @@
           descEn: 'The water takes in the sky, and up and down cease to differ. At the far end of the descent lies the very starfield first seen overhead.'
         }
       ]
+    },
+    canvas: {
+      meta: { ja: '全4作品 · 各 0.05 WETH', en: '4 works · 0.05 WETH each' },
+      works: [
+        {
+          base: 'images/BONSAI CANVAS/サクラ',
+          titleJa: '起・桜「黄金」',
+          titleEn: 'Ki – Cherry: "Gold"',
+          descJa: 'クリムトの様式に倣い、金箔の背景に桜を描く。装飾はここで平面となり、樹だけが奥行きを持って立つ。東洋と西洋が出会う、その最初の一枚。',
+          descEn: 'Cherry blossoms rendered in the manner of Klimt, against a ground of gold leaf. Ornament flattens into pure surface, and only the tree keeps its depth. The first meeting of East and West.'
+        },
+        {
+          base: 'images/BONSAI CANVAS/柿',
+          titleJa: '承・柿「波と富士」',
+          titleEn: 'Sho – Persimmon: "Wave and Fuji"',
+          descJa: '北斎の様式を借りて、富士と波を背景に。厚く盛られた絵具が波となり、実の重みで枝は垂れる。静かだった画面に動きが生まれる。',
+          descEn: 'Fuji and waves in the manner of Hokusai. Thick impasto becomes wave, and branches bow under the weight of fruit; the still surface begins to move.'
+        },
+        {
+          base: 'images/BONSAI CANVAS/藤',
+          titleJa: '転・藤「水鏡」',
+          titleEn: 'Ten – Wisteria: "Water Mirror"',
+          descJa: 'モネの筆致に倣えば、花房も水面も輪郭を失っていく。何が咲いていて何が映っているのか、もはや分けて見る必要はない。',
+          descEn: 'Painted in the manner of Monet, both blossom and water lose their edges. What blooms and what is reflected no longer need to be told apart.'
+        },
+        {
+          base: 'images/BONSAI CANVAS/梅',
+          titleJa: '結・梅「星月夜」',
+          titleEn: 'Ketsu – Plum: "Starry Night"',
+          descJa: 'ゴッホの様式で渦を巻く夜空、その中心に白梅が立つ。筆はここで最も激しく、それでも樹の姿は少しも揺らがない。四人の巨匠を巡って、盆栽は盆栽のまま残る。',
+          descEn: 'A night sky spiraling in the manner of Van Gogh, with a white plum at its center. Here the brush is at its most violent, yet the tree does not waver. Through four masters, the bonsai remains itself.'
+        }
+      ]
     }
   };
 
