@@ -182,6 +182,39 @@
           descEn: 'A night sky spiraling in the manner of Van Gogh, with a white plum at its center. Here the brush is at its most violent, yet the tree does not waver. Through four masters, the bonsai remains itself.'
         }
       ]
+    },
+    mythroot: {
+      meta: { ja: '全4作品・0.04〜0.10 WETH', en: '4 works · 0.04-0.10 WETH' },
+      works: [
+        {
+          base: 'images/BONSAI  MYTHROOT/「起」— GENESIS ',
+          titleJa: '起・産土「うぶすな」',
+          titleEn: 'Ki - Genesis: "The Birthing Ground"',
+          descJa: 'まだ神話は語られていない。渦巻く光の只中で、根が岩を掴み、立ち上がりがねじれながら天へ向かう。物語は、この最初の一掴みから始まる。',
+          descEn: 'No myth has yet been told. In the midst of swirling light, roots seize the rock and the trunk twists upward. The story begins with this first grasp.'
+        },
+        {
+          base: 'images/BONSAI  MYTHROOT/「承」— PANTHEON ',
+          titleJa: '承・八百万「やおよろず」',
+          titleEn: 'Sho - Pantheon: "The Myriad Gods"',
+          descJa: '光は幹に移り、痕となって刻まれた。一本が林となり、それぞれの幹が異なる物語を負う。神々は増え、寄り添い、森をなす。',
+          descEn: 'The light has moved into the trunks, incised as marks. One tree becomes a grove, each trunk bearing a different story. The gods multiply, gather, and form a forest.'
+        },
+        {
+          base: 'images/BONSAI  MYTHROOT/「転」— RAGNAROK',
+          titleJa: '転・舎利「しゃり」',
+          titleEn: 'Ten - Ragnarok: "The Bleached Bone"',
+          descJa: '刻まれたものごと崩れ落ち、色は失われた。残ったのは白く枯れた幹——盆栽が舎利と呼ぶもの。神々の終わりは、骨の美しさとして現れる。',
+          descEn: 'All that was inscribed has fallen, and colour has drained away. What remains is the bleached deadwood bonsai calls shari. The end of the gods appears as the beauty of bone.'
+        },
+        {
+          base: 'images/BONSAI  MYTHROOT/「結」— REBIRTH ',
+          titleJa: '結・花明かり「はなあかり」',
+          titleEn: 'Ketsu - Rebirth: "Blossom Light"',
+          descJa: '骨から花が咲いた。闇の中で花だけがほのかに明るい。神話は終わらない。ただ、語り直されるのを待っている。',
+          descEn: 'From the bone, blossoms open. In the darkness, only the flowers hold a faint light. Myth does not end. It waits to be told again.'
+        }
+      ]
     }
   };
 
