@@ -83,6 +83,39 @@
           descEn: 'A white pine under snow, motionless against a garden drained of color. After a full turn of the seasons, what remains is not color but the bare architecture of trunk and branch.'
         }
       ]
+    },
+    cosmos: {
+      meta: { ja: '全4作品 · 各 0.05 WETH', en: '4 works · 0.05 WETH each' },
+      works: [
+        {
+          base: 'images/BONSAI COSMOS/誕生',
+          titleJa: '起・誕生「ビッグバン」',
+          titleEn: 'Ki – Birth: "The Big Bang"',
+          descJa: '星雲の渦のただなかで、幹がねじれながら立ち上がる。宇宙が始まったその瞬間から、樹という形はすでに決まっていたのかもしれない。',
+          descEn: 'Amid the swirl of a nebula, a trunk rises and twists. Perhaps the shape of a tree was already decided in the first instant of the universe.'
+        },
+        {
+          base: 'images/BONSAI COSMOS/輝き',
+          titleJa: '承・輝き「RADIANCE」',
+          titleEn: 'Sho – Radiance',
+          descJa: '葉の一枚ずつに光が灯り、やがて星々と見分けがつかなくなる。生まれ落ちた形は、ここで最も強く燃える。',
+          descEn: 'Light kindles in every leaf until they can no longer be told apart from the stars. Here, the form that was born burns at its brightest.'
+        },
+        {
+          base: 'images/BONSAI COSMOS/静寂',
+          titleJa: '転・静寂「SILENCE」',
+          titleEn: 'Ten – Silence',
+          descJa: '色が引いていく。残るのは星明かりと、剥き出しの岩の上に立つ一本の影だけ。輝きの後に訪れるのは、終わりではなく静けさだ。',
+          descEn: 'The color drains away. What remains is starlight and a single silhouette on bare rock — what follows radiance is not an ending, but stillness.'
+        },
+        {
+          base: 'images/BONSAI COSMOS/永遠',
+          titleJa: '結・永遠「ETERNITY」',
+          titleEn: 'Ketsu – Eternity',
+          descJa: '星さえ見えなくなった白い空の下、舎利をさらした幹だけが岩に残る。時間が通り過ぎたあとに残るのは、生きた証としての木肌そのものだ。',
+          descEn: 'Under a pale sky where even the stars have gone, only a trunk of bleached deadwood remains on the rock. What outlasts time is the grain of the wood itself.'
+        }
+      ]
     }
   };
 
