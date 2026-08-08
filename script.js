@@ -281,6 +281,39 @@
           descEn: 'The tree becomes a single black mass, printed in ink, its base bleeding into the ground. The background is worn paper. Where the void is thinnest, the tree stands darkest.'
         }
       ]
+    },
+    'tree-of-itself': {
+      meta: { ja: '全4作品・0.02〜0.04 WETH', en: '4 works · 0.02–0.04 WETH' },
+      works: [
+        {
+          base: 'images/TREE OF ITSELF/HINOKI  檜',
+          titleJa: '起・檜「かみのき」',
+          titleEn: 'Ki – Hinoki: "The Sacred Origin"',
+          descJa: '社殿を背に、白木のブロックが積み上がって一本の樹になる。檜は宮大工が神域に使う材だ。根張りが大きく広がり、幹は模様木の渦を巻いて立ち上がる。',
+          descEn: 'Blocks of pale wood stack into a tree, a shrine hall behind it. Hinoki is the timber temple carpenters reserve for sacred ground. The nebari spreads wide, and the trunk rises in the coil of moyogi.'
+        },
+        {
+          base: 'images/TREE OF ITSELF/KUSUNOKI  楠',
+          titleJa: '承・楠「みとどけ」',
+          titleEn: 'Sho – Kusunoki: "The Ancient Witness"',
+          descJa: '飴色に艶めくブロック。株立ちで、複数の幹が同じ根元から空へ分かれていく。楠は御神木として千年を生きる樹。森の奥で、ただ立って見つづけてきた。',
+          descEn: 'Amber blocks with a worn gloss. In kabudachi form, several trunks divide skyward from one root. The camphor is a shrine tree that lives a thousand years. Deep in the forest, it has done nothing but stand and watch.'
+        },
+        {
+          base: 'images/TREE OF ITSELF/ケヤキ（欅）',
+          titleJa: '転・欅「ねばり」',
+          titleEn: 'Ten – Keyaki: "The Unbreakable"',
+          descJa: '赤黒く焼けたブロックが、四方へ均等に枝を伸ばす。背後は炎。欅は硬いのではなく粘る材で、折れずにたわむからこそ寺社の梁になる。燃える前で、立っている。',
+          descEn: 'Blocks burnt red-black reach out evenly on all sides. Behind them, fire. Zelkova is not hard so much as pliant — it bends without breaking, which is why it becomes temple beams. It stands with the fire at its back.'
+        },
+        {
+          base: 'images/TREE OF ITSELF/クロマツ（黒松）',
+          titleJa: '結・黒松「ひとり」',
+          titleEn: 'Ketsu – Kuromatsu: "The Lone Scholar"',
+          descJa: '黒いブロック、白い余白、遠くにかすむ山。文人木は装飾を削ぎ落とした様式だ。四作のうちこの一枚だけが、背負うものを何も持たずに立っている。',
+          descEn: 'Black blocks, white space, a mountain fading in the distance. Bunjin is the style that strips ornament away. Of the four, only this one stands carrying nothing behind it.'
+        }
+      ]
     }
   };
 
