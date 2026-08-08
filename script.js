@@ -314,6 +314,39 @@
           descEn: 'Black blocks, white space, a mountain fading in the distance. Bunjin is the style that strips ornament away. Of the four, only this one stands carrying nothing behind it.'
         }
       ]
+    },
+    'stone': {
+      meta: { ja: '全4作品・0.05〜0.08 WETH', en: '4 works · 0.05–0.08 WETH' },
+      works: [
+        {
+          base: 'images/BONSAI STONE/＃１',
+          titleJa: '起・土「たよる」',
+          titleEn: 'Ki – Earth: "Still Fed"',
+          descJa: '根は石を越え、その下の土へ届いている。\n石はまだ通り道にすぎない。\nこの樹は、失うものをまだ知らない。',
+          descEn: 'The roots cross the stone and reach the soil beneath it.\nThe rock is still only a path.\nThis tree does not yet know what it will lose.'
+        },
+        {
+          base: 'images/BONSAI STONE/＃２',
+          titleJa: '承・岩「にぎる」',
+          titleEn: 'Sho – Grip: "Only Stone Now"',
+          descJa: '土がない。\n根は石の窪みをたどり、割れ目を探し、そこに指をかける。\n握るのではなく、握るしかない。',
+          descEn: 'No soil.\nThe roots follow every hollow, find every crack, and set their fingers there.\nNot holding on by choice. Holding on because there is nothing else.'
+        },
+        {
+          base: 'images/BONSAI STONE/＃３',
+          titleJa: '転・骨「まじる」',
+          titleEn: 'Ten – Fusion: "Wood Turns Stone"',
+          descJa: '幹が白く枯れ、ねじれ、石の縞と見分けがつかなくなる。\nどこまでが木で、どこからが石か。\n掴んでいたはずのものと、いつのまにか同じものになっている。',
+          descEn: 'The trunk bleaches, twists, and blurs into the grain of the rock.\nWhere does the wood end and the stone begin?\nWhat it once gripped, it has quietly become.'
+        },
+        {
+          base: 'images/BONSAI STONE/＃４',
+          titleJa: '結・苔「なじむ」',
+          titleEn: 'Ketsu – Moss: "Stone Time"',
+          descJa: '苔が石を覆い、根を覆い、境目を埋めていく。\n石の時間はゆっくりで、樹の時間はそれより速い。\nその差が、もう見えない。',
+          descEn: 'Moss covers the stone, covers the roots, fills the seam between them.\nStone keeps slow time. The tree keeps faster time.\nThe gap is no longer visible.'
+        }
+      ]
     }
   };
 
