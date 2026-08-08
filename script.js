@@ -215,6 +215,39 @@
           descEn: 'From the bone, blossoms open. In the darkness, only the flowers hold a faint light. Myth does not end. It waits to be told again.'
         }
       ]
+    },
+    geometric: {
+      meta: { ja: '全4作品・0.015〜0.035 WETH', en: '4 works · 0.015–0.035 WETH' },
+      works: [
+        {
+          base: 'images/BONSAI GEOMETRIC/「起」— 金×紺',
+          titleJa: '起・点「かさなり」',
+          titleEn: 'Ki – Halftone: "Overlap"',
+          descJa: '円も葉も、同じ点の集まりで描かれる。どこまでが幾何で、どこからが樹なのか分からない。模様木の幹だけが渦を巻き、この一枚が盆栽であることを示している。',
+          descEn: 'Circles and foliage are built from the same dots. There is no telling where geometry ends and the tree begins. Only the coiling moyogi trunk marks this as a bonsai.'
+        },
+        {
+          base: 'images/BONSAI GEOMETRIC/「承」— 藍×銀',
+          titleJa: '承・格子「へだたり」',
+          titleEn: 'Sho – Grid: "The Distance"',
+          descJa: '円は格子の文様となり、樹は彫り線の細密描写となった。描く言葉が二つに分かれ、背後の円は樹に触れなくなる。荒れた幹肌が、幾何の整然さと向かい合う。',
+          descEn: 'The circles become lattice patterns; the tree becomes engraved line. The two are no longer drawn in one language, and the circles stop touching the tree. Rough bark faces down geometric order.'
+        },
+        {
+          base: 'images/BONSAI GEOMETRIC/「転」— 朱×黒',
+          titleJa: '転・朱「ひといろ」',
+          titleEn: 'Ten – Crimson: "One Color"',
+          descJa: '朱の円がすべてを飲み込み、樹は黒い影となる。細部は消え、幹を走る一筋の白だけが残る。だが背景の点は死んでいない。染まったのは樹のほうだ。',
+          descEn: 'Crimson swallows everything and the tree drops to silhouette. Detail is gone. A single white streak down the trunk remains. But the dots behind are still alive — it is the tree that was stained.'
+        },
+        {
+          base: 'images/BONSAI GEOMETRIC/「結」— 桜×灰',
+          titleJa: '結・粒「なごり」',
+          titleEn: 'Ketsu – Grain: "Afterglow"',
+          descJa: '朱はほどけ、淡い粒となって散った。樹は石のような質感を取り戻し、根張りが再び見えている。四作を通じて、樹形は一度も変わっていない。',
+          descEn: 'The crimson loosens and scatters into pale grain. The tree recovers a stone-like weight, and the nebari shows again. Across all four, the form never changed.'
+        }
+      ]
     }
   };
 
