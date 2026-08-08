@@ -248,6 +248,39 @@
           descEn: 'The crimson loosens and scatters into pale grain. The tree recovers a stone-like weight, and the nebari shows again. Across all four, the form never changed.'
         }
       ]
+    },
+    void: {
+      meta: { ja: '全4作品・0.05〜0.08 WETH', en: '4 works · 0.05–0.08 WETH' },
+      works: [
+        {
+          base: 'images/BONSAI VOID/VOID #1 — SILENCE',
+          titleJa: '起・静寂「くう」',
+          titleEn: 'Ki – Silence: "Nothing Yet"',
+          descJa: '画面の八割が、何もない。樹は右下にひとつ、石の上に置かれたように立つ。地面との境も曖昧で、まだどこにも根を下ろしていないように見える。',
+          descEn: 'Eight-tenths of the frame holds nothing. The tree sits low and right, set on a stone as if placed there. Even the ground beneath it blurs — nothing has taken root yet.'
+        },
+        {
+          base: 'images/BONSAI VOID/VOID #2 — BREATH  間',
+          titleJa: '承・間「のろし」',
+          titleEn: 'Sho – Breath: "Something Enters"',
+          descJa: '白が反転して黒になり、そこへ煙が立ち上る。細枝は霜のように白く光り、鉢の輪郭がはっきりと現れる。何もなかった場所に、最初の合図が上がる。',
+          descEn: 'White inverts to black, and smoke begins to rise. Fine branches glint like frost, and the rim of the pot comes clearly into view. In a place that held nothing, a first signal goes up.'
+        },
+        {
+          base: 'images/BONSAI VOID/VOID #3 — ASH  灰',
+          titleJa: '転・灰「すむ」',
+          titleEn: 'Ten – Ash: "Burned Clear"',
+          descJa: '葉がすべて落ち、枝だけが残った。燃えたあとの澄んだ空気のなかで、枝の一本一本が向こう側まで見通せる。何も隠すものがなくなった姿。',
+          descEn: 'Every leaf is gone; only branches remain. In the clear air after burning, each branch can be followed all the way through. Nothing is left to hide behind.'
+        },
+        {
+          base: 'images/BONSAI VOID/VOID #4 — TRACE  痕',
+          titleJa: '結・痕「にじむ」',
+          titleEn: 'Ketsu – Trace: "What Stays"',
+          descJa: '樹は墨で刷られたひとつの黒い塊となり、根元が滲んで地面と溶け合う。背景は掠れた紙のようだ。空虚がいちばん薄いこの一枚で、樹は最も濃く残る。',
+          descEn: 'The tree becomes a single black mass, printed in ink, its base bleeding into the ground. The background is worn paper. Where the void is thinnest, the tree stands darkest.'
+        }
+      ]
     }
   };
 
@@ -345,12 +378,15 @@
     var picture = document.createElement('picture');
     var source = document.createElement('source');
     /* Spaces must be percent-encoded: srcset splits each candidate on
-       whitespace, so a raw space would be parsed as a size descriptor. */
-    source.setAttribute('srcset', encodeURI(work.base + '.webp'));
+       whitespace, so a raw space would be parsed as a size descriptor.
+       encodeURI() leaves '#' untouched since it's a valid URI reserved
+       character, but in a filename it gets read as a fragment marker,
+       so it needs a manual %23 replacement afterward. */
+    source.setAttribute('srcset', encodeURI(work.base + '.webp').replace(/#/g, '%23'));
     source.setAttribute('type', 'image/webp');
 
     var img = document.createElement('img');
-    img.src = encodeURI(work.base + '.png');
+    img.src = encodeURI(work.base + '.png').replace(/#/g, '%23');
     img.loading = 'lazy';
     img.decoding = 'async';
     img.setAttribute('data-ja-alt', work.titleJa);
