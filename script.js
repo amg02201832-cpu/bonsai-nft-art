@@ -446,6 +446,39 @@
           descEn: 'The roots grip the rock. Not soil — the rock itself. In later ages this form was given names and became a style. What existed in nature became a form to be made. Centuries after the great age of ink painting, people are still trying to rebuild this same scene on a tray.'
         }
       ]
+    },
+    'wabi': {
+      meta: { ja: '全4作品・0.06〜0.10 WETH', en: '4 works · 0.06–0.10 WETH' },
+      works: [
+        {
+          base: 'images/BONSAI WABI/＃１',
+          titleJa: 'WABI #1 — Stone & Mist',
+          titleEn: 'WABI #1 — Stone & Mist',
+          descJa: '寂びは、もともと自然の中にあった。森の奥、苔むした巨岩の上に一本の樹が立っている。誰も見ていない。ただ時間だけが積もっていく。苔も、崩れかけた岩肌も、誰かが美しくしたものではない。自然が一体となり、歳月をかけてたどり着いた。',
+          descEn: 'Sabi was always there in nature. Deep in the forest, a single tree stands on a moss-covered rock. No one is watching. Only time accumulates. The moss, the weathered stone — no one made them beautiful. Nature moved as one and arrived here over the years.'
+        },
+        {
+          base: 'images/BONSAI WABI/＃２',
+          titleJa: 'WABI #2 — Rain & Silence',
+          titleEn: 'WABI #2 — Rain & Silence',
+          descJa: '鉢は欠け、枝には葉がなく、雨粒だけが光っている。傷んだ器も落葉した枝も、完成とは無縁の存在だ。ただそれは、年月を重ねたかけがえのない美しさにほかならない。欠けたものを美しいと呼び変えたとき、寂びは美意識になった。',
+          descEn: 'The pot is chipped, the branches bare, and only raindrops catch the light. A damaged vessel, a leafless tree — neither has anything to do with completion. And yet this is nothing other than an irreplaceable beauty, gathered over years. The moment loss was called beautiful, sabi became an aesthetic.'
+        },
+        {
+          base: 'images/BONSAI WABI/＃３',
+          titleJa: 'WABI #3 — Engawa & Light',
+          titleEn: 'WABI #3 — Engawa & Light',
+          descJa: '縁側に差す光の先には、日常の侘び寂び。日本文化は、何気ない日常から感じる侘び寂びを美徳とし、美意識へと変化させてきた。そしてその美意識が、やがて人間そのものの成長へとつながっていく。',
+          descEn: 'Beyond the light falling on the engawa lies the wabi-sabi of ordinary days. Japanese culture held this sense — drawn from nothing remarkable — as a virtue, and turned it into an aesthetic. In time, that aesthetic came to shape the growth of the person as well.'
+        },
+        {
+          base: 'images/BONSAI WABI/＃４',
+          titleJa: 'WABI #4 — Zen Garden & Fog',
+          titleEn: 'WABI #4 — Zen Garden & Fog',
+          descJa: '砂に紋を描き、石を据え、樹を配する。自然を写すのではない。削ぎ落とし、静けさそのものを造形する。侘び寂びは「静の芸術」となり、足す文化から引く文化への昇華を経た。',
+          descEn: 'Patterns raked into sand, stones set in place, trees arranged. This does not copy nature. It strips away, and shapes stillness itself. Wabi-sabi became an art of quietude — a culture of addition transformed into a culture of subtraction.'
+        }
+      ]
     }
   };
 
