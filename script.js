@@ -413,6 +413,39 @@
           descEn: 'Hagi was written of as a flower that falls. It is also the plant most often named in the Man\'yoshu. What the poets of a thousand years ago regretted was this moment of scattering. A lingering is what remains after the flower has gone. And in the next spring, the same flower opens again.'
         }
       ]
+    },
+    'ink': {
+      meta: { ja: '全4作品・0.06〜0.10 WETH', en: '4 works · 0.06–0.10 WETH' },
+      works: [
+        {
+          base: 'images/BONSAI INK/＃１',
+          titleJa: 'INK #1 — MOUNTAIN / 峰',
+          titleEn: 'INK #1 — MOUNTAIN / 峰',
+          descJa: '盆栽の原点は、自然の中にある。断崖の上に一本の松が立っている。人はそこへ行けない。ただ見上げるだけだ。この光景に目を奪われた誰かが、いつかそれを手元に置きたいと願った。すべてはそこから始まった。',
+          descEn: 'The origin of bonsai lies in nature. A single pine stands on a cliff edge. No one can reach it. One can only look up. Someone who was struck by this sight one day wished to hold it close. Everything began there.'
+        },
+        {
+          base: 'images/BONSAI INK/＃２',
+          titleJa: 'INK #2 — RIVER / 流',
+          titleEn: 'INK #2 — RIVER / 流',
+          descJa: '水が動いている。山は動かないが、川は動く。動くものは目を捉える。岩の間を落ちる白い流れも、そこに根を張る松も、墨の濃淡だけで描かれている。輪郭線はどこにもない。自然に輪郭線はないからだ。',
+          descEn: 'Water is moving. The mountain does not move, but the river does. What moves catches the eye. The white fall between the rocks and the pine rooted beside it are drawn only in gradations of ink. There is no outline anywhere. Nature has no outlines.'
+        },
+        {
+          base: 'images/BONSAI INK/＃３',
+          titleJa: 'INK #3 — MIST / 霞',
+          titleEn: 'INK #3 — MIST / 霞',
+          descJa: '霞がすべてを消した。山も、水も、地面すら見えない。残ったのは一本の裸の樹だけだ。ここで初めて、風景から樹が切り離される。人が樹そのものを見た瞬間。盆栽という文化は、おそらくこの視線から生まれた。',
+          descEn: 'The mist has erased everything. The mountain, the water, even the ground is gone. What remains is one bare tree. Here, for the first time, the tree is cut away from the landscape. The moment a person saw the tree itself. The culture of bonsai was probably born from this way of looking.'
+        },
+        {
+          base: 'images/BONSAI INK/＃４',
+          titleJa: 'INK #4 — STONE / 磐',
+          titleEn: 'INK #4 — STONE / 磐',
+          descJa: '根が岩を掴んでいる。土ではなく、岩そのものを。後の世で、この姿は石付き・石上と呼ばれ、様式になった。自然にあったものが、型になった。水墨画の全盛から数百年、人はまだ同じ光景を鉢の上に再現しようとしている。',
+          descEn: 'The roots grip the rock. Not soil — the rock itself. In later ages this form was given names and became a style. What existed in nature became a form to be made. Centuries after the great age of ink painting, people are still trying to rebuild this same scene on a tray.'
+        }
+      ]
     }
   };
 
