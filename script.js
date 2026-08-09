@@ -347,6 +347,39 @@
           descEn: 'Moss covers the stone, covers the roots, fills the seam between them.\nStone keeps slow time. The tree keeps faster time.\nThe gap is no longer visible.'
         }
       ]
+    },
+    'monyo': {
+      meta: { ja: '全4作品・各 0.05 WETH', en: '4 works · 0.05 WETH each' },
+      works: [
+        {
+          base: 'images/MONYO/起',
+          titleJa: '起・麻「のびる」',
+          titleEn: 'Ki – Hemp: "Grown As Asked"',
+          descJa: '麻の葉は、産着の文様。まっすぐ健やかに育つようにと、生まれたばかりの子に着せた祈りだった。鉢がそう願い、樹は直幹で応えた。傷は、まだどこにもない。',
+          descEn: 'Asanoha is the pattern of a newborn\'s first garment — a wish that the child grow straight and strong. The pot made that wish, and the tree answered with an unbroken vertical trunk. Nothing here has been hurt yet.'
+        },
+        {
+          base: 'images/MONYO/承',
+          titleJa: '承・波「くりかえす」',
+          titleEn: 'Sho – Wave: "Peace Repeats"',
+          descJa: '青海波は、寄せては返す波の反復。穏やかさとは変化がないことではなく、同じものが繰り返し戻ってくることだ。幹の付け根に、小さなウロがひとつ空いた。それでも樹は、去年と同じ形に枝を張る。',
+          descEn: 'Seigaiha repeats one wave, over and over. Calm is not the absence of change but the return of the same thing. A small hollow has opened at the base of the trunk. The tree spreads its branches in the same shape it held last year.'
+        },
+        {
+          base: 'images/MONYO/転',
+          titleJa: '転・蔓「ねじれる」',
+          titleEn: 'Ten – Vine: "Scars Are the Proof"',
+          descJa: '唐草は、伸びて絡んで途切れない蔓の文様。意味は生命力。この樹は幹がねじれ、白い舎利が露わになっている。最も暗い光の中で、最も傷んだ姿で、鉢は生命力を語る。生きていくということは決して無傷ではない。その傷が、生きた証だ。',
+          descEn: 'Karakusa is the vine that reaches, tangles, and never breaks — the pattern of vitality. This trunk has twisted, and pale deadwood shows through the bark. In the dimmest light, in the most damaged form, the pot speaks of vitality. To live is never to remain unhurt. The scars are the proof of a life lived.'
+        },
+        {
+          base: 'images/MONYO/結',
+          titleJa: '結・環「つながる」',
+          titleEn: 'Ketsu – Ring: "The Circle Becomes a Bond"',
+          descJa: '七宝は、円が重なり合って途切れない文様。縁が続くようにという願い。ねじれた幹は治らないまま、花をつけた。円が縁となり、すべてを繋いでいく。',
+          descEn: 'Shippo is a lattice of overlapping circles that never breaks — a wish that connection continues. The twisted trunk never straightened, and still it flowered. The circle becomes a bond, and the bond carries everything onward.'
+        }
+      ]
     }
   };
 
