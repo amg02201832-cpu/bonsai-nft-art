@@ -380,6 +380,39 @@
           descEn: 'Shippo is a lattice of overlapping circles that never breaks — a wish that connection continues. The twisted trunk never straightened, and still it flowered. The circle becomes a bond, and the bond carries everything onward.'
         }
       ]
+    },
+    'manyo': {
+      meta: { ja: '全4作品・各 0.05 WETH', en: '4 works · 0.05 WETH each' },
+      works: [
+        {
+          base: 'images/MANYO/馬酔木',
+          titleJa: '馬酔木 — 咲きそむ希望',
+          titleEn: 'Ashibi — First Sign of Spring',
+          descJa: '万葉集に詠まれた花。千年以上前、誰かがこの白い鈴を見て歌にした。まだ咲ききってはいない。歌人が詠んだのも、これから咲くものだった。始まりとは、満ちる前の状態のことだ。',
+          descEn: 'A flower named in the Man\'yoshu. More than a thousand years ago, someone saw these white bells and made a poem of them. It has not fully opened. What the poet wrote of was also something still to come. A beginning is the state before fullness.'
+        },
+        {
+          base: 'images/MANYO/藤',
+          titleJa: '藤 — 溢れる生命',
+          titleEn: 'Fuji — Overflowing Life',
+          descJa: '藤は垂れる。花房の重みが枝を引き下げ、樹形そのものを決めてしまう。盆栽で懸崖が谷へ落ちる姿と、根は同じだ。溢れるとは、支えきれないほど持っているということ。',
+          descEn: 'Wisteria hangs. The weight of the racemes pulls the branches down and decides the shape of the tree itself. It shares its root with the cascade style, falling toward the valley. To overflow is to hold more than one can support.'
+        },
+        {
+          base: 'images/MANYO/撫子',
+          titleJa: '撫子 — 可憐と芯',
+          titleEn: 'Nadeshiko — Delicate and Strong',
+          descJa: 'ここに幹はない。細い茎が寄り集まっているだけだ。盆栽の分類には収まらないかもしれない。だがこれは万葉集の世界の花であり、日本人が千年見つめてきた象徴のひとつだ。樹形の物差しの外側に、そういう美しさがある。可憐に見えるものが弱いとは限らない。芯は、太さのことではない。',
+          descEn: 'There is no trunk here. Only thin stems, gathered close. It may not fit the categories of bonsai. But this is a flower of the Man\'yoshu, one of the symbols this country has looked at for a thousand years. Some beauty lives outside the measure of tree form. What looks delicate is not always weak. A core is not a matter of thickness.'
+        },
+        {
+          base: 'images/MANYO/萩',
+          titleJa: '萩 — 移ろいと余韻',
+          titleEn: 'Hagi — The Lingering Season',
+          descJa: '萩は散る花として詠まれた。万葉集で最も多く詠まれた植物でもある。千年前の歌人が惜しんだのは、この散り際だった。余韻とは、花が去った後に残るもの。そして次の春に、また同じ花が咲く。',
+          descEn: 'Hagi was written of as a flower that falls. It is also the plant most often named in the Man\'yoshu. What the poets of a thousand years ago regretted was this moment of scattering. A lingering is what remains after the flower has gone. And in the next spring, the same flower opens again.'
+        }
+      ]
     }
   };
 
