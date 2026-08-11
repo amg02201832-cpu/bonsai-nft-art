@@ -512,6 +512,39 @@
           descEn: 'The background is gone — no tatami, no rock, no staged light. White stems stand; green leaves unravel. Only that remains. No one asks anymore what was borrowed.'
         }
       ]
+    },
+    'cyber': {
+      meta: { ja: '全4作品・0.04〜0.10 WETH', en: '4 works · 0.04–0.10 WETH' },
+      works: [
+        {
+          base: 'images/BONSAI CYBER/u7989772765_A_massive_ancient_bonsai_tree_growing_on_a_floati_723d3362-0ef3-457a-afc8-f5ce228fce46_1 (1)',
+          titleJa: 'CYBER #1 — GENESIS / 創世',
+          titleEn: 'CYBER #1 — GENESIS / 創世',
+          descJa: '都市はすでに地上を埋めている。樹はそこへ降りず、島ごと空に浮いたまま、根で岩を抱いている。石付き。人の手の届かない高さで、相手にしているのは雷だけだ。まだ、文明とは無関係でいられた。',
+          descEn: 'The city has already covered the ground. The tree does not descend to it, but stays afloat with its island, its roots clasped around the rock. Root-over-rock. At a height no hand can reach, its only adversary is the lightning. For now, it can still remain unrelated to civilization.'
+        },
+        {
+          base: 'images/BONSAI CYBER/u7989772765_An_ancient_bonsai_tree_in_a_cyberpunk_Japanese_sh_faea14bf-ff6a-44ab-89e7-0544cabf72fd_3',
+          titleJa: 'CYBER #2 — SHRINE / 聖域',
+          titleEn: 'CYBER #2 — SHRINE / 聖域',
+          descJa: '樹は地に降りた。ただし降りた先は境内で、鳥居が内と外を分けている。灯りは提灯——人が作った火だが、樹を照らすために吊るされた火だ。散る花弁と火の粉が混ざりはじめる。抗うのではなく、迎えることを覚えた。',
+          descEn: 'The tree has come down to earth — but it has come down inside a shrine, where the gate divides within from without. The light is lantern light: a flame made by human hands, yet hung there to illuminate the tree. Falling petals and drifting embers begin to mix. This is no longer resistance. The tree has learned to receive.'
+        },
+        {
+          base: 'images/BONSAI CYBER/u7989772765_A_ancient_bonsai_tree_glowing_with_purple_lightni_5a255f7e-3d51-46b4-954a-abb0170ea688_1',
+          titleJa: 'CYBER #3 — THUNDER / 雷鳴',
+          titleEn: 'CYBER #3 — THUNDER / 雷鳴',
+          descJa: '境内を出た樹は、雨の路上に立っている。頭上を裂く光は、もう空の雷ではない。ネオンと同じ色をした電流が、枝先に絡んでいる。そして足元には鉢がある。人に置かれ、人に運ばれる樹になった。ここで抗いは終わる。',
+          descEn: 'Out of the shrine, the tree stands on a rain-soaked street. The light splitting the sky is no longer weather. A current the same colour as the neon coils around its branch tips. And at its base, there is a pot. It has become a tree that people place and people carry. Here the resistance ends.'
+        },
+        {
+          base: 'images/BONSAI CYBER/u7989772765_A_bonsai_tree_fused_with_cybernetic_mechanical_pa_a80379a6-4023-4e08-a567-2bfc49313aa6_1',
+          titleJa: 'CYBER #4 — MACHINE / 機械',
+          titleEn: 'CYBER #4 — MACHINE / 機械',
+          descJa: '幹は基板になり、枝は配線になった。それでも立ち上がりは模様木のまま、樹冠と幹の釣り合いも崩れていない。緑の光は、真柏の水吸いと同じ位置を走っている。変わったのは素材で、変わらなかったのは姿だ。文明に合わせて進化したのではない。姿を残すために、素材のほうを差し出したのだ。',
+          descEn: 'The trunk has become a circuit board, the branches wiring. Yet the rise of the trunk is still moyogi, and the balance between crown and canopy still holds. The green light runs exactly where a juniper\'s living vein would run. What changed was the material. What did not change was the form. It did not evolve to suit civilization. To keep its shape, it gave up its substance instead.'
+        }
+      ]
     }
   };
 
