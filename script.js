@@ -479,6 +479,39 @@
           descEn: 'Patterns raked into sand, stones set in place, trees arranged. This does not copy nature. It strips away, and shapes stillness itself. Wabi-sabi became an art of quietude — a culture of addition transformed into a culture of subtraction.'
         }
       ]
+    },
+    'veggie': {
+      meta: { ja: '全4作品・0.01〜0.015 WETH', en: '4 works · 0.01–0.015 WETH' },
+      works: [
+        {
+          base: 'images/VEGGIE BONSAI/「起」— ブロッコリー×模様木',
+          titleJa: 'VEGGIE #1 – Broccoli / 緑の命',
+          titleEn: 'VEGGIE #1 – Broccoli / Green Life',
+          descJa: '畳と障子。そこに置かれれば、なんであれ盆栽の顔をする。ねじれた幹、広がる樹冠、確かに模様木だ。——ただし、これはブロッコリーである。',
+          descEn: 'Tatami and shoji. Place anything here and it wears the face of bonsai. The twisted trunk, the spreading crown — a proper moyogi, truly. Except that this is broccoli.'
+        },
+        {
+          base: 'images/VEGGIE BONSAI/「承」— カリフラワー×株立ち',
+          titleJa: 'VEGGIE #2 – Cauliflower / 白の神殿',
+          titleEn: 'VEGGIE #2 – Cauliflower / White Temple',
+          descJa: '白は光をためこむ。ためこんだ光が、野菜を神殿に変える。株元から立ち上がる幾筋もの幹に、可笑しさより先に静けさが来る。借り物の型が、少しずつ板についてくる。',
+          descEn: 'White hoards the light, and the hoarded light turns a vegetable into a temple. Before the joke arrives, the silence does. The borrowed form begins to fit.'
+        },
+        {
+          base: 'images/VEGGIE BONSAI/「転」— サツマイモ×懸崖',
+          titleJa: 'VEGGIE #3 – Satsumaimo / 紫の断崖',
+          titleEn: 'VEGGIE #3 – Satsumaimo / Purple Cliff',
+          descJa: '岩に根を絡ませ、紫の塊が崖を掴んでいる。垂れる枝は水のように落ちる。ここで笑いは消える。芋であることを、見る者は忘れる。懸崖とは、落ちながら生きる姿のことだ。',
+          descEn: 'Roots grip the rock; a purple mass holds the cliff. The branches fall like water, and here the laughter stops. Kengai is the form of living while falling.'
+        },
+        {
+          base: 'images/VEGGIE BONSAI/「結」— ネギ×株立ち',
+          titleJa: 'VEGGIE #4 – Negi / 青と白の詩',
+          titleEn: 'VEGGIE #4 – Negi / A Poem in Blue and White',
+          descJa: '背景が消えた。畳も、岩も、光の演出もない。白い茎が立ち、青い葉がほどける。ただそれだけが在る。借り物であることを、もう誰も問わない。',
+          descEn: 'The background is gone — no tatami, no rock, no staged light. White stems stand; green leaves unravel. Only that remains. No one asks anymore what was borrowed.'
+        }
+      ]
     }
   };
 
