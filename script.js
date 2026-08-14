@@ -545,6 +545,39 @@
           descEn: 'The trunk has become a circuit board, the branches wiring. Yet the rise of the trunk is still moyogi, and the balance between crown and canopy still holds. The green light runs exactly where a juniper\'s living vein would run. What changed was the material. What did not change was the form. It did not evolve to suit civilization. To keep its shape, it gave up its substance instead.'
         }
       ]
+    },
+    'forge': {
+      meta: { ja: '全4作品・0.05〜0.10 WETH', en: '4 works · 0.05–0.10 WETH' },
+      works: [
+        {
+          base: 'images/BONSAI FORGE/金',
+          titleJa: 'FORGE #1 — GOLD',
+          titleEn: 'FORGE #1 — GOLD',
+          descJa: '金は錆びない。永遠に。根は岩をしっかりと掴んでいてその形はいつまでも変わらない。ガラスの内側で、光だけが動いている。完成された姿のまま、何も起こらない。',
+          descEn: 'Gold does not rust. Not ever. Its roots grip the stone firmly, and that shape will never change. Inside the glass, only the light moves. It stands complete, and nothing happens to it.'
+        },
+        {
+          base: 'images/BONSAI FORGE/銀',
+          titleJa: 'FORGE #2 — SILVER',
+          titleEn: 'FORGE #2 — SILVER',
+          descJa: '銀は時間とともにくすむ。それが次第に深い味わいとなり、やがていぶし銀といわれる。空気と関わりはじめたということだ。すべては自然の中で生まれる。',
+          descEn: 'Silver dulls with time. That dulling deepens into character — what we call ibushi-gin, the smoked silver prized for its quiet depth. It means the metal has begun its relationship with the air. Everything is born within nature.'
+        },
+        {
+          base: 'images/BONSAI FORGE/鉄',
+          titleJa: 'FORGE #3 — IRON',
+          titleEn: 'FORGE #3 — IRON',
+          descJa: '鉄は錆び、光沢も強度も衰えていく。それが故に、人と触れ合う時間が鉄の価値を上げる。黒い肌は人とのつながりの時間そのものである。',
+          descEn: 'Iron rusts. Its shine fades, its strength gives way. And for that very reason, the hours it spends in human hands raise its worth. This black surface is nothing other than the time of that connection.'
+        },
+        {
+          base: 'images/BONSAI FORGE/銅',
+          titleJa: 'FORGE #4 — COPPER',
+          titleEn: 'FORGE #4 — COPPER',
+          descJa: '銅は、長い年月を経て緑青を吹く。時間とともに深みを増した緑錆が樹木全体を覆いつくす。金属で作られた樹が、季節を持つように。金属であることを忘れたように、生きている。',
+          descEn: 'Copper turns green over long years. The verdigris deepens with time until it covers the whole tree. As though a tree made of metal had come to hold a season. As though it had forgotten it was metal at all — and was living.'
+        }
+      ]
     }
   };
 
