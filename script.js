@@ -51,6 +51,39 @@
         }
       ]
     },
+    shari: {
+      meta: { ja: '全4作品・0.06〜0.12 WETH', en: '4 works · 0.06–0.12 WETH' },
+      works: [
+        {
+          base: 'images/BONSAI SHARI/1',
+          titleJa: '起・傷「痕跡」',
+          titleEn: 'Ki – Scar: "The Trace"',
+          descJa: 'はじめは傷だった。折れた枝の跡、削られた樹皮。真柏はそこを枯らして白く残す。まだ樹のほうが大きく、白はただの痕跡にすぎない。だがこの一点から、すべてが始まる。',
+          descEn: 'It began as a wound. The scar of a broken branch, a strip of stripped bark. The juniper lets that place die and keeps it, white. The tree is still the larger thing here, and the white is only a trace. But everything begins from this one point.'
+        },
+        {
+          base: 'images/BONSAI SHARI/2',
+          titleJa: '承・風「あらわ」',
+          titleEn: 'Sho – Wind: "The Reveal"',
+          descJa: '風は彫らない。樹がすでに手放すと決めたものを、あらわにするだけだ。乾いた空気が幾年も傷を広げ、白い木肌は葉よりも先に、見る者の正面に立つ。',
+          descEn: 'Wind does not carve. It only reveals what the tree has already decided to let go. Years of dry air have widened the wound until the pale grain now faces the viewer before the leaves do.'
+        },
+        {
+          base: 'images/BONSAI SHARI/3',
+          titleJa: '転・境「均衡」',
+          titleEn: 'Ten – Border: "The Balance"',
+          descJa: '一本の線が、幹を下る。片側では、いまも水が昇っている。もう片側では、何も動かない。どちらが勝っているのでもない。樹はただ、両方を抱えている。岸が水と陸を、選ばずに抱えるように。',
+          descEn: 'A line runs down the trunk. On one side, the sap still climbs. On the other, nothing moves anymore. Neither is winning. The tree simply holds both, the way a shore holds water and land without choosing.'
+        },
+        {
+          base: 'images/BONSAI SHARI/4',
+          titleJa: '結・光「空」',
+          titleEn: 'Ketsu – Light: "Emptiness"',
+          descJa: 'もはや生死にこだわる必要はない。一筋の樹皮が白く白骨化した樹を昇り、僅かな水脈を葉に届ける。白は「無」ではなく「空（くう）」。舎利の本質は、自然をただ受け入れ抗うことなく生きた証。',
+          descEn: 'There is no longer any need to insist on living or dying. A single thread of bark climbs the bleached bone of the tree, carrying a thin vein of water to the leaves. The white is not absence but emptiness — ku. Shari is the proof of a life that accepted nature and never fought it.'
+        }
+      ]
+    },
     seasons: {
       meta: { ja: '全4作品 · 各 0.05 WETH', en: '4 works · 0.05 WETH each' },
       works: [
