@@ -84,6 +84,39 @@
         }
       ]
     },
+    kanju: {
+      meta: { ja: '全4作品・0.06〜0.12 WETH', en: '4 works · 0.06–0.12 WETH' },
+      works: [
+        {
+          base: 'images/KANJU/1',
+          titleJa: '起・薄明「はじまりの光」',
+          titleEn: 'Ki – First Light',
+          descJa: '夜が明けきらない時間。窓からの光はまだ弱く、影は右へ滲んで伸びる。葉を落とした楓は、根張りと立ち上がりだけで立っている。枝先に、赤い冬芽がいくつか。まだ誰も気づいていない。',
+          descEn: 'Before the night has fully lifted. The light through the window is still weak, and the shadow bleeds away to the right. Stripped of every leaf, the maple stands on nothing but its roots and its rise. At the tips of the branches, a few red winter buds. No one has noticed them yet.'
+        },
+        {
+          base: 'images/KANJU/2',
+          titleJa: '承・影法師「もう一本の樹」',
+          titleEn: 'Shō – The Second Tree',
+          descJa: '陽が行き渡り、光は右から、影は左へ、鋭く流れる。壁に細い枝が描写され、樹は再びそこに立つ。光と影、陰と陽。どちらが先でどちらが後か、決める必要もない。その曖昧さを、間（ま）と呼ぶ。',
+          descEn: 'The sun has come around. The light falls from the right, and the shadow runs sharply to the left. Thin branches are traced onto the wall, and the tree stands there once again. Light and shadow, yin and yang. There is no need to decide which came first. That ambiguity is what we call ma.'
+        },
+        {
+          base: 'images/KANJU/3',
+          titleJa: '転・灯「暗がりの紅」',
+          titleEn: 'Ten – A Small Fire',
+          descJa: '気が付けば楓が退き、木瓜が座る。壁は濃紺に沈み、夕日だけが窓から木瓜を覗く。樹皮の荒れた古木。枯れ枝に、赤い花が数輪。朝の枝先にあった赤が、一日の終わりにようやく目覚めた。暗がりの中に紅一点。',
+          descEn: 'Before you notice, the maple has withdrawn and the quince has taken its seat. The wall sinks into deep blue, and only the evening sun looks in through the window. An old tree with rough, split bark. On its bare branches, a few red blossoms. The red that waited in the morning buds has finally woken at the end of the day. A single point of red in the dark.'
+        },
+        {
+          base: 'images/KANJU/4',
+          titleJa: '結・名残「残るもの」',
+          titleEn: 'Ketsu – What Remains',
+          descJa: '月が昇り光は再び窓からのぞき込む。にぶい銀が幹をそっと撫でていく。影はかろうじてそこに佇む。葉を落とした樹は、何も持たないまま春を待つ。ただ、静かにそっと。',
+          descEn: 'The moon rises, and the light peers in through the window once more. A dull silver strokes the trunk, softly. The shadow barely lingers, still standing there. A tree that has dropped everything waits for spring holding nothing at all. Quietly, gently.'
+        }
+      ]
+    },
     seasons: {
       meta: { ja: '全4作品 · 各 0.05 WETH', en: '4 works · 0.05 WETH each' },
       works: [
